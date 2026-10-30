@@ -29,6 +29,7 @@ Hangman_Game/
 │
 ├── hangman.py
 ├── words.txt
+|__hangman_stages.py
 └── README.md
 ```
 
@@ -38,6 +39,7 @@ Hangman_Game/
 |---|---|
 | `hangman.py` | Main Python game program |
 | `words.txt` | Contains words used in the game |
+|`hangman_stages.py`| Contains stages of hangman|
 | `README.md` | Project documentation |
 
 ## ⚙️ Features
