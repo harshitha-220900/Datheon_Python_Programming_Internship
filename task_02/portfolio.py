@@ -64,7 +64,7 @@ def ask_quantity():
 
 def get_position(tickers, prices):
     while True:
-        symbol = input("\\nStock ticker symbol (or 'done' to finish): ").strip().upper()
+        symbol = input("\nStock ticker symbol (or 'done' to finish): ").strip().upper()
         if symbol == "DONE":
             return None
         if not symbol:
@@ -173,10 +173,10 @@ def main():
         print(f"Added {position['symbol']}.")
 
     if not positions:
-        print("\\nNo holdings entered. Nothing to save.")
+        print("\nNo holdings entered. Nothing to save.")
         return
 
-    print("\\n" + "=" * 80)
+    print("\n" + "=" * 80)
     print(f"{'TICKER':<10}{'QUANTITY':>10}{'INVESTED':>14}{'MARKET VALUE':>16}{'GAIN/LOSS':>14}{'RETURN':>12}")
     print("-" * 80)
     for position in positions:
@@ -200,4 +200,4 @@ if __name__ == "__main__":
     try:
         main()
     except (KeyboardInterrupt, EOFError):
-        print("\\n\\nProgram cancelled.")
+        print("\n\nProgram cancelled.")
