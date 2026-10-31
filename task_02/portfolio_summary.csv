@@ -1,0 +1,4 @@
+Timestamp,Ticker,Company,BuyPrice,CurrentPrice,Quantity,InvestedCapital,MarketValue,GainLoss,GainLossPercent
+2026-10-30T16:09:10+05:30,AAPL,Apple Inc.,150.00,225.50,10,1500.00,2255.00,755.00,50.33
+2026-10-30T16:09:10+05:30,AMZN,Amazon,260.00,180.00,20,5200.00,3600.00,-1600.00,-30.77
+2026-10-30T16:09:10+05:30,PORTFOLIO_TOTAL,All holdings,,,30,6700.00,5855.00,-845.00,-12.61
